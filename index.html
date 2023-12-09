@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Awesome Books</title>
+  <!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">-->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body onload="startTime()">
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#list">Awesome Books</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#list">Booklist</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#add">Add a Book</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="block" id="list">
+      <div class="container">
+        <h1 class="main-title text-center pb-5 text-primary">Awesome Books</h1>
+        <ul class="book-list list-group mb-5 border border-secondary"></ul>
+      </div>
+    </section>
+    <section class="container align-self-center none" id="add">
+      <form action="#" class="add-book d-flex flex-column justify-content-center align-items-center">
+        <h3 class="text-center fs-1 mb-3 text-primary">Add a book</h3>
+        <div class="input-container width-full">
+          <input type="text" class="title form-control" placeholder="Title" />
+        </div>
+        <div class="input-container my-2 width-full">
+          <input type="text" class="author form-control" placeholder="Author" />
+        </div>
+        <button class="add btn btn-primary mt-3" type="submit">Add</button>
+      </form>
+    </section>
+    <section class="container text-center none" id="contact">
+      <h3 class="fs-1 mb-3 text-primary pt-5">Contact Information</h3>
+      <p class="fs-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+      <ul class="pt-5 list-unstyled">
+        <li class="list-item">
+          <h3 class="font-weight-bolder">Email:</h3>
+          kaash0542@gmail.com
+        </li>
+        <li class="list-item">Phone number: 0303-8111297</li>
+        <li class="list-item">Address: Lahore city country Pakistan</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="bg-secondary text-white text-center py-2">
+    <div class="container">
+      <p>&copy; 2023 Awesome Books. All rights reserved.</p>
+    </div>
+  </footer>
+  //
+  <!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+<!-- Popper.js -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-cdm0PB4n2N5dAxWUpEZB0XOB8jrVGB9lKLaVEpV/C+UAtwWHrztU2vIoA4NpAwAg" crossorigin="anonymous"></script>
+
+<!-- Bootstrap JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-c9SR2zQ3Fehx1odOwwlZYuRzHTl4/ZSm5hAARxgW9K2urI5Y4tQ1hAVJjBDJuB9" crossorigin="anonymous"></script>
+
+<!-- Luxon -->
+<script src="https://cdn.jsdelivr.net/npm/luxon@1.27.0/build/global/luxon.min.js" crossorigin="anonymous"></script>
+
+<!-- Your Custom Scripts -->
+<script src="navigation.js"></script>
+<script src="main.js"></script>
+
+
+  </body>
+</html>

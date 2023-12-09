@@ -1,0 +1,58 @@
+@media only screen and (max-width: 768px) {
+  body {
+  }
+  
+  .navbar {
+    margin-bottom: 20px;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+      section {
+      margin-top: 20%;
+    }
+  
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+  
+    p {
+      margin-bottom: 0;
+    }
+  
+    a:hover {
+      opacity: 0.9;
+    }
+  
+    .width-full {
+      width: 100%;
+    }
+  
+    .container {
+      width: 80%;
+    }
+  
+    .add {
+      width: 100px;
+    }
+  
+    .none {
+      display: none;
+    }
+  
+    .block {
+      display: block;
+    }
+  
+    .nav-link {
+      font-size: 1.1rem;
+    }
+  
+    .pr-10 {
+      padding-right: 90px;
+    }
+  }
+  
